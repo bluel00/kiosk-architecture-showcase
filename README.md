@@ -20,13 +20,15 @@ Electron 기반 포토 키오스크 애플리케이션을 바탕으로,
 
 ---
 
-## 문서 구성 (예정)
+## 디렉터리 구조
 
-- `/docs/architecture.md` : 전체 시스템 아키텍처 개요
-- `/docs/flow.md` : 사용자 플로우 및 상태 전이
-- `/docs/ipc.md` : IPC 채널 및 계약 정의
-- `/docs/decisions/` : 주요 설계 결정 기록 (ADR)
-- `/examples/renderer-session.tsx` : 렌더러 상태 플로우 예시 코드 (빌드/실행 불가 스텁)
+- `/docs/` : 아키텍처 설명 문서 모음. 세부 안내는 `docs/README.md` 참고
+  - `architecture.md` : 전체 시스템 아키텍처 개요
+  - `flow.md` : 사용자 플로우 및 상태 전이
+  - `ipc.md` : IPC 채널 및 계약 정의
+  - `decisions/` : 주요 설계 결정 기록 (ADR) 및 템플릿
+- `/examples/` : 렌더러 중심 예시 코드 모음. 세부 안내는 `examples/README.md` 참고
+  - `renderer-session.tsx` : 렌더러 상태 플로우 예시 코드 (빌드/실행 불가 스텁)
 
 > 현재 레포는 실행 가능한 앱이 아니라, 아키텍처와 설계 패턴을 설명하는 **문서/예시 중심 쇼케이스**입니다. 빌드 스크립트나 외부 서비스 연동, 하드웨어 구체화는 포함하지 않습니다.
 
